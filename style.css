@@ -1,0 +1,330 @@
+body {
+    background-color: black;
+}
+
+
+.active {
+    text-decoration: underline;
+}
+
+
+/*/////////////// "NAVIGATION" TAG START ///////////////////*/
+.frstLst {
+    display: block;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.frstLst li a:hover {
+    color: blue;
+}
+
+.frstLst li a:active {
+    color: greenyellow;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+li a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    
+}
+/*/////////////// "NAVIGATION" TAG END ///////////////////*/
+
+
+/*/////////////// "HEADER" TAG START ///////////////////
+header {
+    border: 4px dotted greenyellow;
+    width: 50%;
+    margin: auto;
+}
+
+.contP {
+    background: blue;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.contP > h2 {
+    color: white;
+    font-family: Courier New;
+}
+
+.contP > h4 {
+    color: #ffff;
+    font-family: Courier New, Marker Felt, fantasy;
+}
+
+/////////////// "HEADER" TAG END ///////////////////*/
+ 
+
+/*/////////////// "TITLE" TAG START ///////////////////*/
+.ttl {
+    text-align: center;
+}
+
+.ttl > h1 {
+    color: #ffff;
+    font-family: Courier New, Chalkduster, fantasy;
+    font-size: 150px;
+    margin: 20px auto 0px auto;
+}
+
+.ttltwo {
+    color: white;
+    text-align: center;
+}
+
+.ttltwo > h3 {
+    font-family: Courier New;
+    margin-top: 0px;
+    padding-bottom: 50px; 
+}
+/*/////////////// "TITLE" TAG END ///////////////////*/
+
+
+/*/////////////// "MIDDLE NAVIGATION" TAG START ///////////////////*/
+.midN {
+    color: white;
+    text-align: center;
+}
+
+.midN div {
+    display: inline-block;
+}
+
+.s {
+    background-image: url(pexels-mike-bird-190574.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border: 4px solid greenyellow;
+    font-family: Courier New, Chalkduster, fantasy;
+    font-weight: bold;
+    font-size: 35px;
+    width: 35%;
+    color: white;
+}
+
+.midN .s:hover {
+    color: greenyellow;
+}
+
+.p {
+    background-image: url(pexels-mike-bird-190574.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border: 4px solid greenyellow;
+    font-family: Courier New, Chalkduster, fantasy;
+    font-weight: bold;
+    font-size: 35px;
+    width: 35%;
+}
+
+.midN .p:hover {
+    color: greenyellow;
+}
+/*/////////////// "MIDDLE NAVIGATION" TAG END ///////////////////*/
+
+
+/*/////////////// "LAST STATEMENT" TAG START ///////////////////*/
+.mSt {
+    text-align: center;
+}
+
+.mSt > h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 70px;
+}
+
+.mSt > h1 > span {
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+/*/////////////// "LAST STATEMENT" TAG END ///////////////////*/
+
+.top {
+    position: relative;
+    border:  3px solid greenyellow;
+    height: 12em;
+    text-align: center;
+    background-image: url(pexels-mike-bird-190574.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-page {
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+    font-family: Courier New, Chalkduster, fantasy;
+    font-weight: bold;
+    padding-top: 50px;
+}  
+
+
+.top-serv {
+    text-align: center;
+}
+
+.top-serv > h1 {
+    width: 85%;
+    display:inline-block;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+    border-bottom: 4px dotted greenyellow;
+    padding-bottom: 20px;
+}
+
+.top-serv > h1 > span {
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+.serv-op {
+    color: white;
+    text-align: center;
+    
+}
+
+.serv-op div {
+    display: inline-block;
+    width: 35%;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: Courier New, Chalkduster, fantasy;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+.serv-op-list .listone {
+    
+    color: white;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+    margin-left: 230px;
+    
+}
+
+
+.serv-op-list .listtwo {
+    color: white;
+    display: inline-block;
+    position:inherit;
+    text-align: center;
+    width: 34%;
+    
+    
+    
+    
+}
+
+.serv-op-list .listone li {
+    display: block;
+}
+
+.serv-op-list .listtwo li {
+    display: block;
+}
+
+
+
+
+
+
+
+
+/*/////////////// "FOOTER" TAG START ///////////////////*/
+
+.footer-basic {
+  padding: 40px 0;
+  
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+  color: blue;
+}
+
+.footer-basic ul a:active {
+    color: greenyellow;
+}
+
+.footer-basic ul .active {
+    text-decoration: underline;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/*/////////////// "FOOTER" TAG END ///////////////////*/
+
+@media only screen and (max-width: 768px) {
+    .ttl > h1 {
+        font-size: 110px;
+        
+    }
+    .ttltwo > h3 {
+        font-size: medium;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+    .ttl > h1 {
+        font-size: 80px;
+        
+    }
+    li {
+        padding: 10px;
+    }
+    
+    .s {
+        width: 90%;
+        margin-bottom: 10px;
+        
+    }
+    .p {
+        width: 90%;
+    }
+    
+
+};

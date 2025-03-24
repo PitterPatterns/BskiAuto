@@ -37,7 +37,7 @@ li a {
 /*/////////////// "NAVIGATION" TAG END ///////////////////*/
 
 
-/*/////////////// "HEADER" TAG START ///////////////////
+/*/////////////// "HEADER" TAG START //////////////////*/
 header {
     border: 4px dotted greenyellow;
     width: 50%;
@@ -61,7 +61,7 @@ header {
     font-family: Courier New, Marker Felt, fantasy;
 }
 
-/////////////// "HEADER" TAG END ///////////////////*/
+/*////////////// "HEADER" TAG END ///////////////////*/
  
 
 /*/////////////// "TITLE" TAG START ///////////////////*/
